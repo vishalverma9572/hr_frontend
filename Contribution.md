@@ -40,18 +40,16 @@ hr_frontend/
 │   │   ├── PageName_compo/   # Components related to a specific page
 │   │   │   ├── ComponentName.js
 │   │   │   └── ComponentName.css
-│   │   ├── Sidebar.js         # General use components
-│   │   ├── Navbar.js          # General use components
+│   │       ├── general/               # General components
+│   │   ├── Sidebar.js
+│   │   ├── Navbar.js
+│   │   └── ...   # General use components
 │   │   └── ...                # Other general components
 │   ├── pages/                 # Different pages of the application
 │   │   ├── Home.js
 │   │   ├── About.js
 │   │   └── ...                # Other pages
-│   ├── assets/                # Images and other assets
-│   ├── general/               # General components
-│   │   ├── Sidebar.js
-│   │   ├── Navbar.js
-│   │   └── ...                # Other general components
+│   ├── assets/                # Images and other assets                 
 │   ├── App.js                 # Main application file
 │   ├── index.js               # Entry point
 │   └── ...                    # Other source files
